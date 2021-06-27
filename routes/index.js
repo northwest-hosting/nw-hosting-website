@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get("/", function (req, res, next) {
   res.render("index", {
-    title: "Qredit - All-in-one Crypto and Banking Platform",
+    title: "Northwest Hosting - Datacenter Solutions",
     routename: "home",
     csrfToken: req.csrfToken()
   });
